@@ -87,13 +87,31 @@ body{
 .windows{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 .window{
     display: flex;
     flex-direction: column;
 }
-.sec3{}
-.lorem{}
+.sec3{
+    display:flex;
+    flex-direction:column;
+}
+.lorem{
+    background-color: #E5E7EB;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 22px;
+}
+.quote{
+    width:700px;
+    font-size: 25px;
+}
 .action{}
 .actionL{}
 .time{}
