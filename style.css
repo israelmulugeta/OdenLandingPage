@@ -1,8 +1,33 @@
-body{}
-.sec1{}
-.hlinks{}
-.logo{}
-.links{}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.sec1{
+    background-color: #1F2937;
+    color: white;
+    display:flex;
+    flex-direction: column;
+
+}
+.hlinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.logo{
+    font-size: 24px;
+     color:#F9FAF8;
+}
+.links{
+    display: flex;
+    gap:20px;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
 .hcontent{}
 .textcontent{}
 .awesome{}
