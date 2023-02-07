@@ -15,7 +15,7 @@ body{
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .logo{
     font-size: 24px;
@@ -25,15 +25,51 @@ body{
     display: flex;
     gap:20px;
     font-size: 18px;
-    color: #E5E7EB;
-    
+    color: #E5E7EB;   
 }
-.hcontent{}
-.textcontent{}
-.awesome{}
-.awesomeText{}
-.signup{}
-.placeholder{}
+.hcontent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:80px;
+    margin-bottom: 50px;
+}
+.textcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin:0px;
+    margin-left: 215px;
+    margin-right: 150px;
+
+}
+.awesome{
+    margin-bottom: 0px;
+}
+.awesomeText{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    width: 300px;
+}
+.signup{
+    background-color: hsl(217, 91%, 59%);
+    color:#F9FAF8;
+    border-radius: 10px;
+    height: 32px;
+    width: 100px;
+    border:0px;
+}
+.placeholder{
+    background-color: grey;
+    padding: 50px;
+    height: 45px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .sec2{}
 .infotitle{}
 .info{}
