@@ -76,14 +76,17 @@ body{
     padding-right: 100px;
 
 }
-.sec2{}
+.sec2{
+    display: flex;
+    flex-direction: column;
+}
 .infotitle{
     display: flex;
     justify-content: center;
     font-size: 36px;
     margin-bottom: 10px;
 }
-.info{}
+
 .windows{
     display: flex;
     justify-content: space-around;
@@ -96,6 +99,7 @@ body{
 .sec3{
     display:flex;
     flex-direction:column;
+    margin-bottom: auto;
 }
 .lorem{
     background-color: #E5E7EB;
@@ -152,7 +156,7 @@ p{height: fit-content;
 padding-top: 0px;
 margin-top: 2px;}
 .sign2{
-    height: fit-content;
+    height: 32px;
     margin-top: 60px;
     border-radius: 15px;
     background-color: #3882F6;
@@ -162,10 +166,16 @@ margin-top: 2px;}
     border: 2px;
     border-style: solid;
 }
-.sec4{}
-.footer{
+.sec4{
     background-color: #1F2937;
-    height:200px
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.footer{
+    color:#F9FAF8;
+
 }
 .box{
     color: #F9FAF8;  
